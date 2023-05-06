@@ -1,1 +1,9 @@
-
+name: Workflow_01
+on:
+  pull_request:
+jobs:
+  Wersja_Pythona:
+    steps:
+    
+  Testowanie_w_Pylint:
+    steps:
