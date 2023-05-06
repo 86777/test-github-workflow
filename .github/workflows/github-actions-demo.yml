@@ -5,6 +5,6 @@ jobs:
   Wersja_Pythona:
     runs-on: ubuntu-latest
     steps:
-      - run: echo python -v
+      - run: python -v
   # Testowanie_w_Pylint:
     # steps:
