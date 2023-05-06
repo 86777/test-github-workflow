@@ -1,9 +1,10 @@
 name: Workflow_01
 on:
-  pull_request:
+  - push
 jobs:
   Wersja_Pythona:
+    runs-on: ubuntu-latest
     steps:
-    
-  Testowanie_w_Pylint:
-    steps:
+      - run: echo python -v
+  # Testowanie_w_Pylint:
+    # steps:
