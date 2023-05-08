@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: python --version
-  # Testowanie_w_Pylint:
-  #  runs-on: ubuntu-latest
-  #  steps:
-  #   - run: pylint --install
+  Testowanie_w_Pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pylint --version
