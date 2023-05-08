@@ -9,4 +9,6 @@ jobs:
   Testowanie_w_Pylint:
     runs-on: ubuntu-latest
     steps:
+      - run: pip install pylint Flask
       - run: pylint --version
+      - run: pylink ./app.py
